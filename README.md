@@ -18,4 +18,6 @@ Wanderlust is a full-stack web application inspired by Airbnb — built using th
 - Full CRUD for Listings & Reviews
 - Cloud-Based Image Uploads (via Cloudinary)
 - Interactive Maps Integration (Mapbox)
-- Secure Sessions, Flash Messages, and Encrypted Passwords
+- Secure Sessions, Flash Messages, and Encrypted Password
+ 
+LINK - https://wanderlust-cq5m.onrender.com/listings
