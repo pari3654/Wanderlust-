@@ -143,3 +143,10 @@ body{
     height: 400px;
     width: 80vh;
   }
+
+  @media(min-width:0px) and (max-width:384px){
+    #map{
+        height:250px !important;
+        width:250px !important;
+    }
+}
