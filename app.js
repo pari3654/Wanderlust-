@@ -108,12 +108,11 @@ app.use((err, req , res, next) => {
     res.status (statusCode).render("error.ejs", { message });
 });
 
-<<<<<<< HEAD
-=======
+
 app.get("/",  (req, res) => {
     res.redirect("/listings")
 });
->>>>>>> 25e90a4 (add project files)
+
 
 app.listen(8080, () =>{
     console.log("server is listening to 8080");
