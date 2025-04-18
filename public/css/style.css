@@ -144,7 +144,7 @@ body{
     width: 80vh;
   }
 
-  @media(min-width:0px) and (max-width:384px){
+  @media(min-width:0px) and (max-width:400px){
     #map{
         height:200px !important;
         width:200px !important;
