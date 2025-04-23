@@ -1,8 +1,8 @@
-# 🌍 Wanderlust
+# WANDERLUST
 
 Wanderlust is a full-stack web application inspired by Airbnb — built using the **MERN** stack to deliver a smooth, secure, and scalable experience.
 
-## 🛠 Tech Stack & Tools
+## Tech Stack & Tools
 
 - **MongoDB | Express.js | Node.js | EJS | JavaScript**
 - Mongoose for DB modeling
@@ -11,7 +11,7 @@ Wanderlust is a full-stack web application inspired by Airbnb — built using th
 - Mapbox for interactive maps
 - Other tools: Multer, Joi, dotenv, express-session, MongoDB Atlas
 
-## ✨ Core Features
+## Core Features
 
 - Clean MVC Architecture
 - User Authentication (Register, Login, Logout, Profile)
