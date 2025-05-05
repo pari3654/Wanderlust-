@@ -30,6 +30,8 @@ module.exports.showListing = (async(req, res) => {
     req.flash("error" , "listing you requested does not exist!");
      res.redirect("/listings");
     } 
+    listing.reviews = listing.reviews.filter(review => review.author !== null);
+    
     console.log(listing);
      res.render("listings/show.ejs", { listing });
         });
