@@ -1,7 +1,3 @@
-# WANDERLUST
-
-Wanderlust is a full-stack web application inspired by Airbnb — built using the **MERN** stack to deliver a smooth, secure, and scalable experience.
-
 # 🌍 Wanderlust
 
 **Wanderlust** is a full-stack travel listing web application inspired by Airbnb. Built using Node.js, Express, MongoDB, and EJS, it allows users to register, log in, create and manage listings, write reviews, and explore destinations via interactive maps.
@@ -37,8 +33,6 @@ Wanderlust is a full-stack web application inspired by Airbnb — built using th
 
 ---
 
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -47,29 +41,43 @@ Wanderlust is a full-stack web application inspired by Airbnb — built using th
 git clone https://github.com/yourusername/wanderlust.git
 cd wanderlust
 
+```
 2. Install Dependencies
-bash
-Copy
-Edit
+```bash
 npm install
+```
 3. Configure Environment Variables
 Create a .env file in the root directory and add:
-
-env
-Copy
-Edit
+```
 DB_URL=mongodb+srv://<your-mongo-db-url>
 SECRET=your_session_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_api_key
 CLOUDINARY_SECRET=your_api_secret
 MAPBOX_TOKEN=your_mapbox_token
+```
 💡 Use your credentials from Cloudinary, Mapbox, and MongoDB Atlas.
 
 4. Run the Server
-bash
-Copy
-Edit
+```
 node app.js
-Visit: http://localhost:8080/listings
+```
+Then open: http://localhost:8080/listings
+
+📁 Folder Structure:
+```
+wanderlust/
+├── controllers/        # Route logic (listings, reviews, users)
+├── models/             # Mongoose schemas
+├── routes/             # Express route files
+├── views/              # EJS templates
+├── public/             # Static assets (CSS, JS)
+│   └── css/
+├── utility/            # Validators and custom error handling
+├── cloudConfig.js      # Cloudinary config
+├── middleware.js       # Authorization, error middleware
+├── app.js              # Main Express app
+├── .env                # Environment variables
+├── package.json        # Project  dependencies
+
 
