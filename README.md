@@ -4,8 +4,6 @@
 
 🔗 **Live Demo:** [https://wanderlust-cq5m.onrender.com/listings](https://wanderlust-cq5m.onrender.com/listings)
 
----
-
 ## 🚀 Tech Stack
 
 - **Backend:** Node.js, Express.js
@@ -16,8 +14,6 @@
 - **Location & Maps:** Mapbox
 - **Validation & Utilities:** Joi, express-session, connect-flash, Multer
 - **Deployment:** Render
-
----
 
 ## ✨ Features
 
@@ -31,7 +27,6 @@
 - ⚠️ Flash messages and server-side validations
 - 🛡 Secure sessions with hashed passwords and cookie management
 
----
 
 ## ⚙️ Setup Instructions
 
