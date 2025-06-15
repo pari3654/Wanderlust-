@@ -18,7 +18,7 @@
 ## ✨ Features
 
 - 🧭 Clean **MVC architecture**
-- 🔐 **User authentication** (register, login, logout)
+- 🔐 **User authentication** (signup, login, logout)
 - 👤 **User authorization** for listings and reviews
 - 🏞 Full **CRUD operations** for listings and reviews
 - ☁️ **Cloud-based image uploads** using Cloudinary
